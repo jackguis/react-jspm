@@ -2,9 +2,8 @@
 
 <head>
     <title>React SystemJS</title>
-    <!-- <script src="assets/js/polyfill.js"></script> -->
-    <script src="assets/js/react.min.js"></script>
-    <script src="assets/js/react-dom.min.js"></script>
+     <script src="assets/js/react.min.js"></script>  
+     <script src="assets/js/react-dom.min.js"></script> 
 </head>
 
 <body>
@@ -13,6 +12,9 @@
     <script src="config.js"></script>
 
     <script>
+        var process = {
+            env: { NODE_ENV: "dev" }
+        };
         System.import("app");
     </script>
 </body>
