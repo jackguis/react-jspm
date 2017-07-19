@@ -19,7 +19,7 @@ System.config({
     "core-js": "npm:core-js@1.2.7",
     "react": "npm:react@15.6.1",
     "react-dom": "npm:react-dom@15.6.1",
-    "react-redux": "npm:react-redux@3.1.2",
+    "react-redux": "npm:react-redux@5.0.2",
     "redux": "npm:redux@3.7.2",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -86,7 +86,7 @@ System.config({
       "object-assign": "npm:object-assign@4.1.1",
       "promise": "npm:promise@7.3.1",
       "setimmediate": "npm:setimmediate@1.0.5",
-      "ua-parser-js": "npm:ua-parser-js@0.7.13"
+      "ua-parser-js": "npm:ua-parser-js@0.7.14"
     },
     "npm:iconv-lite@0.4.18": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.1",
@@ -135,10 +135,14 @@ System.config({
       "prop-types": "npm:prop-types@15.5.10",
       "react": "npm:react@15.6.1"
     },
-    "npm:react-redux@3.1.2": {
+    "npm:react-redux@5.0.2": {
       "hoist-non-react-statics": "npm:hoist-non-react-statics@1.2.0",
       "invariant": "npm:invariant@2.2.2",
+      "lodash": "npm:lodash@4.17.4",
+      "lodash-es": "npm:lodash-es@4.17.4",
+      "loose-envify": "npm:loose-envify@1.3.1",
       "process": "github:jspm/nodelibs-process@0.1.2",
+      "react": "npm:react@15.6.1",
       "redux": "npm:redux@3.7.2"
     },
     "npm:react@15.6.1": {
@@ -172,6 +176,9 @@ System.config({
     },
     "npm:string_decoder@0.10.31": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.1"
+    },
+    "npm:ua-parser-js@0.7.14": {
+      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:util@0.10.3": {
       "inherits": "npm:inherits@2.0.1",

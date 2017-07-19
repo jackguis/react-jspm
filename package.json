@@ -18,7 +18,7 @@
       "core-js": "npm:core-js@^1.1.4",
       "react": "npm:react@^15.6.1",
       "react-dom": "npm:react-dom@^15.6.1",
-      "react-redux": "npm:react-redux@^3.0.0",
+      "react-redux": "npm:react-redux@5.0.2",
       "redux": "npm:redux@^3.7.2"
     }
   }
